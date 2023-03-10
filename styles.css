@@ -1,0 +1,35 @@
+ body {
+ font-family: 'Josefin Sans', sans-serif;
+ }
+.barva a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.barva a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.barva a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.barva a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:royalblue;
+  font-size:30px;
+}
