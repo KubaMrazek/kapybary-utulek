@@ -32,4 +32,164 @@ nav {
   align-items:center;
   background-color:royalblue;
   font-size:30px;
+       position: fixed;
+    
+}
+
+.hero-image {
+  background: url(img/capy.jpg) no-repeat center; 
+  background-size: cover;
+  height: 900px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+    font-size:30px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+        margin-top: 30px;
+    background: royalblue;
+    border-radius: 15px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+    height:300px;;
+    border-radius: 15px;
+    
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width:500px;
+  height:500px ;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 491px;
+  width:490px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:royalblue;
+    border-radius: 20px;
+     margin-left:auto;
+    margin-right: auto;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+    height: 500px;
+    width: 500px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.form {
+    border-top: solid;
+    font-size: 20px;
+    border-top-color: royalblue;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 33%;
+  background-color: royalblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: royalblue;
+}
+.rom
+{
+  border-radius: 5px;
+  padding: 20px;
+}
+.footer {
+    padding: 40px;
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: royalblue;
+   color: white;
+   text-align: center;
+    font-size: 15px;
 }
